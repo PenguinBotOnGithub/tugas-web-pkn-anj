@@ -3,7 +3,7 @@ import "./NavigationBar.css"
 function NavigationBar() {
     return (
         <div class="nav">
-            <a href="/">Kudus Kretek</a>
+            <a href="/" class="logo">Budaya Kudus</a>
             <div class="nav-links">
                 <a href="/destinasi">Destinasi</a>
                 <a href="/blog">Blog</a>

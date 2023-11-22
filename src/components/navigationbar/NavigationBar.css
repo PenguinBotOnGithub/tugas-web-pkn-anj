@@ -1,14 +1,27 @@
 .nav {
     position: sticky;
     top: 0;
+    padding-inline: 7.5rem;
     display: flex;
+    height: 7.5vh;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    box-shadow: 0 0.4rem 1rem rgb(133, 133, 133);
+}
+
+.nav .logo {
+    font-family: Pacifico;
+    font-size: 1.7rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-evenly;
-    gap: 1em;
+    gap: 2.5em;
 }
