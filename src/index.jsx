@@ -3,7 +3,7 @@ import { render } from 'solid-js/web'
 import { Route, Router, Routes, } from '@solidjs/router';
 
 import './index.css'
-import Home from './pages/Home';
+import Home from './pages/home/Home';
 
 const root = document.getElementById('root')
 
