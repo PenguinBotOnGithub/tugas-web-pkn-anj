@@ -1,0 +1,20 @@
+.banner {
+    background-image: url("/img/banner-web-pkn.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 20vw;
+    top: 40%;
+    padding: 0.1em;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+}
